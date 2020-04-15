@@ -50,14 +50,16 @@ const Chat: React.FC = () => {
 
   return (
     <ChatContainer className="ChatContainer">
-      <Input
-        onChange={onChange}
-        placeholder="What's yo name? Cough it up."
-        style={{ width: "200px", marginBottom: "40px" }}
-      />
-      <article className="ChatContainer__message-container">
-        {renderMessages()}
-      </article>
+      <div>
+        {/* <Input
+          onChange={onChange}
+          placeholder="What's yo name? Cough it up."
+          style={{ width: "200px", marginBottom: "40px" }}
+        /> */}
+        <article className="ChatContainer__message-container">
+          {renderMessages()}
+        </article>
+      </div>
       <MemoInputContainer name={name} />
     </ChatContainer>
   );

@@ -8,6 +8,7 @@ const ChatContainer = styled.div`
   padding: 50px;
   flex-direction: column;
   justify-content: space-between;
+  display: flex;
 
   .ChatContainer {
     &__input-container {
